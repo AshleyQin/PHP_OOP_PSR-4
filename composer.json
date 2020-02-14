@@ -1,0 +1,16 @@
+{
+    "name": "test/didico",
+    "description": "php program for adding/changing products",
+    "version": "1.0.0",
+
+    "authors": [{
+        "name": "Ashley Qin",
+        "email": "ashleyqin.wb@gmail.com"
+    }],
+
+    "autoload": {
+        "psr-4": {
+            "products\\": "resources/products"
+        }
+    }
+}
